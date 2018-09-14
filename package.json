@@ -1,0 +1,41 @@
+{
+  "name": "webpack-react-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/index.js",
+    "build": "webpack --watch --mode production",
+    "test": "mocha --compilers babel-core/register ./test/*test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "chai": "^4.1.2",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.6.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "node-sass": "^4.9.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "d3": "^3.5.17",
+    "express": "^4.16.3",
+    "function-plot": "^1.18.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
